@@ -74,7 +74,7 @@ The process is similar to the one for Github:
 2. [Install Git](https://help.github.com/articles/set-up-git/) on your system.
 3. Create _one_ repository on Gitlab. Give it a meaningful name, as your website URL will have the following form: `https://<USERNAME>.gitlab.io/<REPOSITORY>`.
 
-On your system, edit the `config.toml` file to set `baseurl = "https://<USERNAME>.github.io/<REPOSITORY>"`, where `<USERNAME>` is your Gitlab username and `<REPOSITORY>` is the name of the repostory. Stop Hugo if it's running and delete the `public` directory if it exists (by typing `rm -r public/`).
+On your system, edit the `config.toml` file to set `baseurl = "https://<USERNAME>.gitlab.io/<REPOSITORY>"`, where `<USERNAME>` is your Gitlab username and `<REPOSITORY>` is the name of the repostory. Stop Hugo if it's running and delete the `public` directory if it exists (by typing `rm -r public/`).
 
 Follow the instruction on Gitlab in order to link the existing folder on your system with the Gitlab repository. Add everything and push your initial commit.
 
